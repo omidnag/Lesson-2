@@ -1,0 +1,110 @@
+
+
+<!-- Container element -->
+<div class="parallax"></div>
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.backgroundImage {
+	 background-image: url("sushi.jpg");
+	background-size: 100%; 
+	
+	
+}
+
+h1 {
+	color: #fff;
+}
+h2 {
+	color: #fff;
+}
+
+h3 {
+	color: #fff;
+}
+
+}
+
+li {
+	color: #fff;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("sushi.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+nav ul {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #fff;
+    list-style-type: none;
+}
+
+
+nav li {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    list-style-type: none;
+}
+article {
+    margin-top: 200px;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+}
+
+section {
+    margin-top: 200px;
+	 background-color: #000;
+	justify-content: center;
+	 color: #fff;
+}
+
+
+footer {
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    color: #000;	
+}
+footer ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20%;
+    color: #fff;
+}
